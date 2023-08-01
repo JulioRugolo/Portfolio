@@ -1,0 +1,404 @@
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--YdMQ-_Ju--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://images.unsplash.com/photo-1548393488-ae8f117cbc1c%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D715%26q%3D80');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  text-align: center;
+}
+
+.divImg {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.section4 {
+  display: flex;
+  background-color: #f2f2f2;
+  padding: 4rem;
+  text-align: center;
+}
+
+.contactSection .contentContainer{
+  width: 100%;
+  gap: 10px;
+}
+
+.contactIcons {
+  gap: 20px;
+  font-size: 20px;
+}
+
+.section4 .overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  width: 100%;
+  gap: 20px;
+}
+
+.section4 .contentContainer {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 10px;
+  background-color: #e82626;
+}
+
+.section4 .title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.section4 .contactIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+  background-color: aqua;
+  gap: 15px;
+  text-align: center;
+}
+
+.section4 .contactIcons a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.section4 .contactIcons a:hover {
+  color: #e82626;
+}
+
+.section1 .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+.section1 .contentContainer {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contactSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #535353;
+  height: 100px;
+}
+
+.contactSection .overlay {
+  display: flex;
+  background-color: #535353;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.contactSection .overlay .contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactIcons {
+  display: flex;
+}
+
+.section1 .welcome-text {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section2 {
+  background-color: #535353;
+  padding: 4rem;
+  text-align: center;
+}
+
+.section2 .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+.section2 .contentContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section2 .title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.section2 .skillGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+.section2 .skillCard {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  color: #535353;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.section2 .skillCard:hover {
+  transform: translateY(-5px);
+}
+
+.section2 .skillTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section2 .skillList {
+  list-style-type: disc;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.section2 .skillList li {
+  margin-bottom: 0.5rem;
+}
+
+.section3 {
+  display: flex;
+  background-color: #fff;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.section3 .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.section3 .contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.section3 .title {
+  color: #000000;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.section3 .projects-text {
+  color: #000000;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.section3 .project-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section3 .card {
+  width: 300px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  background-color: #8d8d8d;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 420px;
+  color: white;
+}
+
+.section3 .card:hover {
+  transform: translateY(-5px);
+}
+
+.section3 .card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  color: #535353;
+  filter: grayscale(50%);
+}
+
+.section3 .card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.section3 .card p {
+  font-size: 1rem;
+  color: white;
+}
+
+.section2 {
+  background-color: #535353;
+  padding: 4rem;
+  text-align: center;
+}
+
+.section2 .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+
+.section2 .contentContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section2 .title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.section2 .skillGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 3rem;
+}
+
+.section2 .skillCard {
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  color: #535353;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.section2 .skillCard:hover {
+  transform: translateY(-5px);
+}
+
+.section2 .skillTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section2 .skillList {
+  list-style-type: disc;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.section2 .skillList li {
+  margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+  .section1, .section2, .section3 {
+    padding: 0;
+  }
+
+  .section1 {
+    align-items: baseline;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .section1 .overlay {
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .section2 .skillGrid{
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .overlay {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .section2 .skillCard,
+  .section3 .card {
+    width: 95%;
+    height: auto;
+    margin: 1rem 0;
+    border: #535353;
+    border-radius: 10px;
+  }
+
+  .contactIcons {
+    gap: 20px;
+    font-size: 20px;
+  }
+
+  .section3 .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .projecturl {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-grid {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .card {
+    width: 95%;
+    height: auto;
+  }
+
+}

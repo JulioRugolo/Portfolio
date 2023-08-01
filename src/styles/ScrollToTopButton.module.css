@@ -1,0 +1,28 @@
+.scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #960404;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 0;
+  z-index: 100;
+}
+
+.scrollToTopButton.showButton {
+  opacity: 1;
+}
+
+.arrowIcon {
+  font-size: 20px;
+  color: white;
+}
